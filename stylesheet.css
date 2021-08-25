@@ -1,0 +1,110 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+     margin: 0;
+     padding: 0;
+     min-height: 100%;
+     width: 100%;
+ }
+ 
+ 
+ #nav-bar {
+   background-color: #000000;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: fixed;
+   top: 0px; 
+   left: 0px; 
+   width: 100%;   
+ }
+
+ ul li{
+    display: inline;
+    padding: 10px 30px;
+
+  }
+ 
+ #header-img {
+   width: 200px;
+   height: 80px;
+ }
+ 
+ .nav-link {
+   color: #ffffff;
+ }
+ 
+ #home {
+   text-align: center;
+   max-width: 500px;
+   margin: 50px auto;
+   margin-top: 100px;
+ }
+ 
+ .image {
+ width: 100%;
+ }
+ 
+ #features {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+   background-color: #e6e7e8;
+ }
+ 
+ #gps {
+   padding: 25px;
+ }
+ 
+ #ha {
+   padding: 25px;
+ }
+ 
+ #sa {
+   padding: 25px;
+ }
+ 
+ 
+ #ia {
+   padding: 25px;
+ }
+ 
+ #syb {
+   padding: 25px;
+ }
+ 
+ #pt {
+   padding: 25px;
+ }
+ 
+ #preorder {
+   text-align: center;
+   line-height: 3;
+   padding: 50px;
+   background-color: #a7bbdb;
+ }
+ 
+ 
+ footer {
+   text-align: center;
+   background-color: #6b6f75;
+   padding: 5px;
+ }
+ 
+ .social {
+   display: flex;  
+   flex-direction: row;
+   list-style-type: none;
+   justify-content: center;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .social a {
+   color: #000;
+   font-size: 30px;
+   margin: 0 15px;
+   text-decoration: none;
+ }
+ 
+ 
+ 
